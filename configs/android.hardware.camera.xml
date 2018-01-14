@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Copyright (C) 2009 The Android Open Source Project
-
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
      You may obtain a copy of the License at
@@ -14,8 +13,12 @@
      limitations under the License.
 -->
 
-<!-- This is the standard set of features for a non auto-focus camera. -->
+<!-- This is the standard set of features for an camera. -->
 <permissions>
-    <feature name="android.hardware.camera.any" />
     <feature name="android.hardware.camera" />
+    <!-- unmark following line if the hardware supports autofocus -->
+    <feature name="android.hardware.camera.autofocus" />
+    <feature name="android.hardware.camera.flash" />
+    <feature name="android.hardware.camera.front" />
+    <feature name="android.hardware.camera.any" />
 </permissions>
