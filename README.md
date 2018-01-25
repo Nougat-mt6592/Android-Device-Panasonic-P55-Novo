@@ -35,7 +35,7 @@ This branch is for building LineageOS 14.1 Based ROMs.
 
   * repo init -u https://github.com/LineageOS/android.git -b cm-14.1
   * repo sync
-  * Then apply pacthes manually from github.com/TESTmt6572 by cherry-pick
+  * Then apply pacthes manually from https://github.com/Nougat-mt6592 by cherry-picking (pick only those committed with me)
   * git clone https://github.com/Nougat-mt6592/Android-Device-Panasonic-P55-Novo.git -b los14 device/Panasonic/P55Novo
   * git clone https://github.com/Nougat-mt6592/Android-Vendor-Panasonic-P55-Novo.git -b master vendor/Panasonic/P55Novo
   * source build/envsetup.sh
@@ -52,7 +52,7 @@ This branch is for building LineageOS 14.1 Based ROMs.
   * kishpatel1998 - for making a new working device tree for MT6582
   * manjotsidhu & badboyarbaz - for making developement ongoing adn fixing RIL
   * EndLess728 - for everything
-  * Yashpal Joshi(Shivom)[ME] - for making trees for mt6592
+  * Yashpal Joshi(Shivom)[ME] - for making working trees for MT6592
   * Ur name will be listed here :) :) :) :)
   * Electricity Department - for a frequent power cut
   * Everybody's Internet Provider - for a good very low speed
